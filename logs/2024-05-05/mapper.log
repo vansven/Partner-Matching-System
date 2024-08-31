@@ -1,6 +1,0 @@
-2024-05-05 09:51:30.497 [Thread-23] DEBUG c.neu.vansven.mapper.UserMapper.selectPage_mpCount - ==>  Preparing: SELECT COUNT(*) AS total FROM user WHERE is_delete = 0
-2024-05-05 09:51:30.511 [Thread-23] DEBUG c.neu.vansven.mapper.UserMapper.selectPage_mpCount - ==> Parameters: 
-2024-05-05 09:51:30.658 [Thread-23] DEBUG c.neu.vansven.mapper.UserMapper.selectPage_mpCount - <==      Total: 1
-2024-05-05 09:51:30.663 [Thread-23] DEBUG com.neu.vansven.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 LIMIT ?
-2024-05-05 09:51:30.664 [Thread-23] DEBUG com.neu.vansven.mapper.UserMapper.selectPage - ==> Parameters: 20(Long)
-2024-05-05 09:51:30.674 [Thread-23] DEBUG com.neu.vansven.mapper.UserMapper.selectPage - <==      Total: 20

@@ -1,0 +1,195 @@
+2024-05-04 16:26:40.568 [pool-3-thread-1] DEBUG c.neu.vansven.mapper.UserMapper.selectPage_mpCount - ==>  Preparing: SELECT COUNT(*) AS total FROM user WHERE is_delete = 0
+2024-05-04 16:26:40.584 [pool-3-thread-1] DEBUG c.neu.vansven.mapper.UserMapper.selectPage_mpCount - ==> Parameters: 
+2024-05-04 16:26:40.740 [pool-3-thread-1] DEBUG c.neu.vansven.mapper.UserMapper.selectPage_mpCount - <==      Total: 1
+2024-05-04 16:26:40.745 [pool-3-thread-1] DEBUG com.neu.vansven.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 LIMIT ?
+2024-05-04 16:26:40.746 [pool-3-thread-1] DEBUG com.neu.vansven.mapper.UserMapper.selectPage - ==> Parameters: 20(Long)
+2024-05-04 16:26:40.756 [pool-3-thread-1] DEBUG com.neu.vansven.mapper.UserMapper.selectPage - <==      Total: 20
+2024-05-04 16:28:10.536 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 16:28:10.551 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: vansven_xxxxAi_1(String), e11c8d14a883cc01080fc3f3120eeeb2(String)
+2024-05-04 16:28:10.810 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 16:30:29.290 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:30:29.291 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:30:29.295 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:31:40.627 [http-nio-8080-exec-5] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:31:40.628 [http-nio-8080-exec-5] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:31:40.630 [http-nio-8080-exec-5] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:38:56.278 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 16:38:56.278 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: vansven_xxxxAi_1(String), e11c8d14a883cc01080fc3f3120eeeb2(String)
+2024-05-04 16:38:56.582 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 16:39:25.572 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:39:25.573 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:39:25.577 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:40:02.749 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 16:40:02.749 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: vansven_xxxxAi_1(String), e11c8d14a883cc01080fc3f3120eeeb2(String)
+2024-05-04 16:40:02.945 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 16:40:15.057 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:40:15.057 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:40:15.060 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:40:39.291 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:40:39.306 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:40:39.324 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:40:51.022 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:40:51.022 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:40:51.024 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:41:57.757 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:41:57.773 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:41:57.791 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:44:44.197 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:44:44.213 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:44:44.232 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:45:06.284 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:45:06.298 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:45:06.315 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:50:11.411 [http-nio-8080-exec-7] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 16:50:11.427 [http-nio-8080-exec-7] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: vansven_xxxxAi_1(String), e11c8d14a883cc01080fc3f3120eeeb2(String)
+2024-05-04 16:50:11.648 [http-nio-8080-exec-7] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 16:50:17.894 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:50:17.895 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:50:17.897 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:50:43.465 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==>  Preparing: UPDATE team SET name=?, description=?, expire_time=?, status=? WHERE id=?
+2024-05-04 16:50:43.466 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==> Parameters: vans 二大队(String), 暑期实习冲一把(String), 2024-05-04 16:00:00.0(Timestamp), 0(Integer), 23(Long)
+2024-05-04 16:50:43.474 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - <==    Updates: 1
+2024-05-04 16:51:50.470 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 16:51:50.470 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: xxxxxAi(String), 98cb0303b6d8546e4b7feeef9489334a(String)
+2024-05-04 16:51:50.706 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 16:51:57.065 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:51:57.066 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:51:57.068 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:52:59.657 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:52:59.657 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:52:59.659 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:53:32.814 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:53:32.814 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:53:32.818 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:54:32.545 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 16:54:32.561 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: vansven_xxxxAi_1(String), e11c8d14a883cc01080fc3f3120eeeb2(String)
+2024-05-04 16:54:32.805 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 16:54:37.822 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:54:37.822 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:54:37.825 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:58:17.289 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:58:17.289 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:58:17.291 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 16:59:11.477 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 16:59:11.478 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 16:59:11.481 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:01:45.606 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:01:45.622 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:01:45.641 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:02:45.689 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 17:02:45.706 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: xxxxxAi(String), 98cb0303b6d8546e4b7feeef9489334a(String)
+2024-05-04 17:02:45.951 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 17:02:50.323 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:02:50.324 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:02:50.328 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:03:33.541 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 17:03:33.541 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: vansven_xxxxAi_1(String), e11c8d14a883cc01080fc3f3120eeeb2(String)
+2024-05-04 17:03:33.870 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 17:03:38.150 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:03:38.150 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:03:38.153 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:09:32.072 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 17:09:32.088 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: vansven_xxxxAi_1(String), e11c8d14a883cc01080fc3f3120eeeb2(String)
+2024-05-04 17:09:32.394 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 17:09:37.317 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:09:37.318 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:09:37.324 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:10:20.144 [http-nio-8080-exec-5] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 17:10:20.144 [http-nio-8080-exec-5] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: xxxxxAi(String), 98cb0303b6d8546e4b7feeef9489334a(String)
+2024-05-04 17:10:20.360 [http-nio-8080-exec-5] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 17:10:24.531 [http-nio-8080-exec-10] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:10:24.531 [http-nio-8080-exec-10] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:10:24.532 [http-nio-8080-exec-10] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:12:14.299 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:12:14.316 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:12:14.334 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:12:59.766 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 17:12:59.766 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: vansven_xxxxAi_1(String), e11c8d14a883cc01080fc3f3120eeeb2(String)
+2024-05-04 17:12:59.958 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 17:13:04.523 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:13:04.523 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:13:04.525 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:15:20.358 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:15:20.372 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:15:20.391 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:16:22.704 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:16:22.720 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:16:22.736 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:17:35.434 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:17:35.448 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:17:35.465 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:19:18.694 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:19:18.708 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:19:18.724 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:20:09.128 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:20:09.143 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:20:09.160 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:26:30.773 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 17:26:30.790 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: vansven_xxxxAi_1(String), e11c8d14a883cc01080fc3f3120eeeb2(String)
+2024-05-04 17:26:31.006 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 17:26:35.861 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:26:35.862 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:26:35.866 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:27:17.947 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:27:17.963 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:27:17.980 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:30:44.690 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:30:44.691 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 23(Long)
+2024-05-04 17:30:44.692 [http-nio-8080-exec-2] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:31:16.020 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:31:16.021 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:31:16.023 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:31:58.419 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:31:58.419 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:31:58.420 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:32:58.411 [http-nio-8080-exec-9] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:32:58.412 [http-nio-8080-exec-9] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:32:58.413 [http-nio-8080-exec-9] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:36:17.320 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:36:17.321 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:36:18.005 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:36:18.006 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:36:18.006 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:36:18.435 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:36:18.816 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==>  Preparing: UPDATE team SET name=?, description=?, expire_time=?, status=?, password=? WHERE id=?
+2024-05-04 17:36:18.816 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==>  Preparing: UPDATE team SET name=?, description=?, expire_time=?, status=?, password=? WHERE id=?
+2024-05-04 17:36:18.817 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==> Parameters: vans 五大队(String), 加密前密码12345678xxxiA(String), 2024-05-04 16:00:00.0(Timestamp), 0(Integer), 12345678xxxiA(String), 26(Long)
+2024-05-04 17:36:18.817 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==> Parameters: vans 五大队(String), 暑期实习冲五把(String), 2024-05-04 16:00:00.0(Timestamp), 0(Integer), 12345678xxxiA(String), 26(Long)
+2024-05-04 17:36:18.825 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - <==    Updates: 1
+2024-05-04 17:36:18.827 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - <==    Updates: 1
+2024-05-04 17:36:44.100 [http-nio-8080-exec-7] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:36:44.101 [http-nio-8080-exec-7] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:36:44.102 [http-nio-8080-exec-7] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:37:19.037 [pool-7-thread-1] DEBUG c.neu.vansven.mapper.UserMapper.selectPage_mpCount - ==>  Preparing: SELECT COUNT(*) AS total FROM user WHERE is_delete = 0
+2024-05-04 17:37:19.037 [pool-7-thread-1] DEBUG c.neu.vansven.mapper.UserMapper.selectPage_mpCount - ==> Parameters: 
+2024-05-04 17:37:19.148 [pool-7-thread-1] DEBUG c.neu.vansven.mapper.UserMapper.selectPage_mpCount - <==      Total: 1
+2024-05-04 17:37:19.151 [pool-7-thread-1] DEBUG com.neu.vansven.mapper.UserMapper.selectPage - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 LIMIT ?
+2024-05-04 17:37:19.151 [pool-7-thread-1] DEBUG com.neu.vansven.mapper.UserMapper.selectPage - ==> Parameters: 20(Long)
+2024-05-04 17:37:19.158 [pool-7-thread-1] DEBUG com.neu.vansven.mapper.UserMapper.selectPage - <==      Total: 20
+2024-05-04 17:47:06.751 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==>  Preparing: SELECT id,user_name,user_account,avatar_url,gender,password,phone,email,create_time,update_time,is_delete,user_role,tags FROM user WHERE is_delete=0 AND (user_account = ? AND password = ?)
+2024-05-04 17:47:06.767 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - ==> Parameters: xxxxxAi(String), 98cb0303b6d8546e4b7feeef9489334a(String)
+2024-05-04 17:47:07.006 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.UserMapper.selectList - <==      Total: 1
+2024-05-04 17:47:10.471 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:47:10.471 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:47:10.475 [http-nio-8080-exec-3] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:47:56.335 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:47:56.337 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:47:56.342 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:48:40.140 [http-nio-8080-exec-5] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:48:40.141 [http-nio-8080-exec-5] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:48:40.142 [http-nio-8080-exec-5] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:48:44.517 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:48:44.517 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:48:44.519 [http-nio-8080-exec-6] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:49:06.551 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:49:06.565 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:49:06.582 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:49:39.596 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==>  Preparing: UPDATE team SET name=?, description=?, expire_time=?, status=? WHERE id=?
+2024-05-04 17:49:39.600 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==> Parameters: vans 五大队(String), 加密前密码12345678xxxiA(String), 2024-05-04 16:00:00.0(Timestamp), 0(Integer), 26(Long)
+2024-05-04 17:49:39.611 [http-nio-8080-exec-1] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - <==    Updates: 1
+2024-05-04 17:50:08.126 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==>  Preparing: SELECT id,name,create_id,description,expire_time,status,password,creat_time,update_time,is_delete FROM team WHERE id=?
+2024-05-04 17:50:08.126 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - ==> Parameters: 26(Long)
+2024-05-04 17:50:08.129 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.selectById - <==      Total: 1
+2024-05-04 17:50:09.416 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==>  Preparing: UPDATE team SET name=?, description=?, expire_time=?, status=? WHERE id=?
+2024-05-04 17:50:09.417 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - ==> Parameters: vansven 五大队(String), 加密前密码12345678xxxiA(String), 2024-05-04 16:00:00.0(Timestamp), 0(Integer), 26(Long)
+2024-05-04 17:50:09.420 [http-nio-8080-exec-4] DEBUG com.neu.vansven.mapper.TeamMapper.updateById - <==    Updates: 1
